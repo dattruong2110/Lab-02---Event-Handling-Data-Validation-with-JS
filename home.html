@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VUS Fitness Club</title>
+    <link rel="icon" href="./images/logo.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="home.html">
+          <img src="./images/logo.png" alt="this is a logo" />
+        </a>
+      </header>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="#">Nutrition</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="slide">
+        <img
+          class="slide-image"
+          src="https://images.unsplash.com/photo-1542766788-a2f588f447ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMGNsdWJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+          alt="This is banner"
+        />
+        <p class="slide-description">VUS Fitness Club</p>
+        <i class="fa-solid fa-chevron-right" onclick="next()"></i>
+        <i class="fa-solid fa-chevron-left" onclick="prev()"></i>
+      </div>
+
+      <main>
+        <ul class="slick-dots">
+          <li class="slick-active">
+            <button>1</button>
+          </li>
+          <li class="">
+            <button>2</button>
+          </li>
+          <li class="">
+            <button>3</button>
+          </li>
+        </ul>
+        <p>
+          Welcome to VUS Fitness Club. Our mission is to help our clients meet
+          their fitness and nutrition goals.
+        </p>
+        <p>
+          If you have struggled with getting healthy and need the motivation and
+          resources to make a healthy lifestyle change, contact us today. Our
+          facility includes state-of-the-art equipment, convenient group
+          training classes, and nutrition tips and information to keep you
+          healthy.
+        </p>
+        <p>
+          We provide a FREE, one-week membership to experience the benefits of
+          our equipment and facility. This one-week trial gives you complete
+          access to our equipment, training classes, and nutrition planning.
+          Contact us today to start your free trial!
+        </p>
+      </main>
+
+      <footer>
+        <p>&copy Copyright2021. All Right Reversed</p>
+        <a href="mailto:vusfitnessclub@club.com">vusfitnessclub@club.com</a>
+      </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
